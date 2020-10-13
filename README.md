@@ -1,5 +1,6 @@
 # EPAM-JavaIntroOnline-Tasks
 My own solutions for the tasks in online course "Introduction to Java" provided by EPAM company.
+
 Course sections:
   1. Basics of software code development:
     - linear programs (6 tasks),
