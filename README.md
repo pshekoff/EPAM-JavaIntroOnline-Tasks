@@ -3,7 +3,7 @@ My own solutions for the tasks in online course "Introduction to Java" provided 
 
 Course sections:
   1. Basics of software code development:
-    - linear programs (6 tasks),
+   /n - linear programs (6 tasks),
     - branching (5 tasks),
     - cycles (8 tasks);
   2. Algorithmization:
