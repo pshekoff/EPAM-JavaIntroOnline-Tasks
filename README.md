@@ -1,4 +1,4 @@
-# EPAM-JavaIntroOnline-Tasks
+# EPAM-JavaIntroductionOnline-Tasks
 My own solutions for the tasks in online course "Introduction to Java" provided by EPAM company.
 
 Course sections:
