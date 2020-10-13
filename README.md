@@ -8,5 +8,5 @@ Course sections:
   2. Algorithmization:
     - one-dimensional arrays (10 tasks),
     - two-dimensional arrays (16 tasks),
-    - one-dimensional arrays: sorting (8 tasks),
+    - arrays sorting (8 tasks),
     - decomposition using methods (17 tasks);
