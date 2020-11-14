@@ -10,3 +10,7 @@ Course sections:
     - two-dimensional arrays (16 tasks),
     - arrays sorting (8 tasks),
     - decomposition using methods (17 tasks);
+  3. Strings and basics of text processing:
+    - strings as array of char (5 tasks);
+    - string as object String, StringBuffer (10 tasks);
+    - regular expressions (2 tasks);
