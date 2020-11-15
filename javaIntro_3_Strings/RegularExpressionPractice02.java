@@ -3,7 +3,6 @@ package javaIntro_3_Strings;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.regex.*;
-import java.util.Arrays;
 
 public class RegularExpressionPractice02 {
 
