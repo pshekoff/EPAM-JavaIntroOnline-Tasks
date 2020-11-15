@@ -5,8 +5,8 @@ public class CharArrayPractice05 {
 	public static void main(String[] args) {
 
 		String str = " father mother    sister  brother  	cat   \ndog    ";
-		System.out.println("Исходная строка:" + str);
-		System.out.println("Без лишник пробелов:" + spaceCut(str));
+		System.out.println("РСЃС…РѕРґРЅР°СЏ СЃС‚СЂРѕРєР°:" + str);
+		System.out.println("Р‘РµР· Р»РёС€РЅРёРє РїСЂРѕР±РµР»РѕРІ:" + spaceCut(str));
 
 	}
 

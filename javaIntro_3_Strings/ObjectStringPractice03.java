@@ -6,16 +6,16 @@ public class ObjectStringPractice03 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Напишите любое слово: ");
+		System.out.print("РќР°РїРёС€РёС‚Рµ Р»СЋР±РѕРµ СЃР»РѕРІРѕ: ");
 		Scanner scan = new Scanner(System.in);
 		String word = scan.nextLine();
 		scan.close();
 		
 		if (isPalindrome(word)) {
-			System.out.print("Это слово - палиндром!");
+			System.out.print("Р­С‚Рѕ СЃР»РѕРІРѕ - РїР°Р»РёРЅРґСЂРѕРј!");
 		}
 		else {
-			System.out.print("Это слово не является палиндромом.");
+			System.out.print("Р­С‚Рѕ СЃР»РѕРІРѕ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј.");
 		}
 
 	}

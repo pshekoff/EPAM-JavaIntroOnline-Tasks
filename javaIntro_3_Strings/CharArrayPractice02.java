@@ -5,7 +5,7 @@ public class CharArrayPractice02 {
 	public static void main(String[] args) {
 		
 		String str = "ewordq tgdword wtworsdfh s20;wordletter";
-		System.out.println("Исходная строка:\t\t" + str);
+		System.out.println("В»СЃС…РѕРґРЅР°В¤ СЃС‚СЂРѕРєР°:\t\t" + str);
 		
 		char[] strCharArr = str.toCharArray();
 		int count = 0;
@@ -18,7 +18,7 @@ public class CharArrayPractice02 {
 			}
 		}
 		
-		System.out.println("\"word\" заменено на \"letter\":\t" + str);
+		System.out.println("\"word\" Р·Р°РјРµРЅРµРЅРѕ РЅР° \"letter\":\t" + str);
 
 	}
 

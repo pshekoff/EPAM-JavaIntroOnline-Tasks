@@ -5,8 +5,8 @@ public class CharArrayPractice03 {
 	public static void main(String[] args) {
 		
 		String str = "e24wo5rq tgd243wod w80wors87dr4fe s20;we";
-		System.out.println("Исходная строка:\t" + str);
-		System.out.println("Кол-во цифр в строке:\t" + getDigitsCount(str));
+		System.out.println("РСЃС…РѕРґРЅР°СЏ СЃС‚СЂРѕРєР°:\t" + str);
+		System.out.println("РљРѕР»-РІРѕ С†РёС„СЂ РІ СЃС‚СЂРѕРєРµ:\t" + getDigitsCount(str));
 		
 	}	
 	

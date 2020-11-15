@@ -10,40 +10,40 @@ public class RegularExpressionPractice01 {
 		
 		String text = "\tOnce upon a time there lived a woodcutter and his wife. Their early days were lived in\n bliss in a small wood cottage with their two children, Hansel and Gretel.\n" + 
 					"\n\tThese two children grew up to be wise beyond their years. Hansel was smart, soft, and\n charming. The Gretel was poetic, cautious, but quick-witted. The two children loved to skip\n stones in the lake half a mile over.\n" + 
-					"\n\tHansel and Gretel spent most of their time finding the perfect, flattest skipping\n stones. Their collection of stones was large, as they spent more time collecting than\n actually skipping the rocks. Over time, they had acquired a strange companion – a bird, who\n would steal their stones and hide them in various places all over the land – though Hansel\n and Gretel knew not why.\n" + 
+					"\n\tHansel and Gretel spent most of their time finding the perfect, flattest skipping\n stones. Their collection of stones was large, as they spent more time collecting than\n actually skipping the rocks. Over time, they had acquired a strange companion Р¦ a bird, who\n would steal their stones and hide them in various places all over the land Р¦ though Hansel\n and Gretel knew not why.\n" + 
 					"\n\tAt the peak of their childhood, a great famine struck the country where Hansel and\n Gretel lived. It left the rich secluded from the middling and poor classes; the merchant\n class fought to survive; and the poorest of the poor plummeted into utter starvation.\n The woodcutter and his wife, along with Hansel and Gretel eventually struggled to stay fed.\n" + 
-					"\n\tThe reoccurring moments of starvation gradually caused the woodcutter’s wife to go\n choose selfishness. One evening, after Hansel and Gretel had been tucked in bed, the woman\n approached her husband...";
+					"\n\tThe reoccurring moments of starvation gradually caused the woodcutterРўs wife to go\n choose selfishness. One evening, after Hansel and Gretel had been tucked in bed, the woman\n approached her husband...";
 							
 		System.out.println(text);
-		System.out.println("\nЧто сделать с текстом (выберите номер варианта):\n\t1.Отсортировать абзацы по количеству предложений;\n\t2.Отсортировать слова в каждом предложении по длине;\n\t3.Отсортировать лексемы в предложениях по убыванию вхождения заданного символа.");
+		System.out.println("\nвЂћС‚Рѕ СЃРґРµР»Р°С‚СЊ СЃ С‚РµРєСЃС‚РѕРј (РІС‹Р±РµСЂРёС‚Рµ РЅРѕРјРµСЂ РІР°СЂРёР°РЅС‚Р°):\n\t1.СњС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р°Р±Р·Р°С†С‹ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ РїСЂРµРґР»РѕР¶РµРЅРёР№;\n\t2.СњС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃР»РѕРІР° РІ РєР°Р¶РґРѕРј РїСЂРµРґР»РѕР¶РµРЅРёРё РїРѕ РґР»РёРЅРµ;\n\t3.СњС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ Р»РµРєСЃРµРјС‹ РІ РїСЂРµРґР»РѕР¶РµРЅРёВ¤С… РїРѕ СѓР±С‹РІР°РЅРёСЋ РІС…РѕР¶РґРµРЅРёВ¤ Р·Р°РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р°.");
 		
 		Scanner scan = new Scanner(System.in);
 		int var = scan.nextInt();
 		
 		do {
 			if (var == 1) {
-				System.out.println("Сортировка абзацев по количеству предложений:\n");
+				System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° Р°Р±Р·Р°С†РµРІ РїРѕ РєРѕР»РёС‡РµСЃС‚РІСѓ РїСЂРµРґР»РѕР¶РµРЅРёР№:\n");
 				paragraphsSortBySentencesCount(text);
 				break;
 			}
 			
 			else if (var == 2) {
-				System.out.println("Сортировка слов в предложениях по длине:\n");
+				System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° СЃР»РѕРІ РІ РїСЂРµРґР»РѕР¶РµРЅРёВ¤С… РїРѕ РґР»РёРЅРµ:\n");
 				wordsSortByLength(text);
 				break;
 			}
 			
 			else if (var == 3) {
-				System.out.print("Задайте символ: ");
+				System.out.print("В«Р°РґР°Р№С‚Рµ СЃРёРјРІРѕР»: ");
 				String symbol = scan.next();
 				
-				System.out.println("Сортировка лексем в предложениях по убыванию вхождения символа \"" + symbol + "\" (при равенстве вхождений - по алфавиту):\n");
+				System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° Р»РµРєСЃРµРј РІ РїСЂРµРґР»РѕР¶РµРЅРёВ¤С… РїРѕ СѓР±С‹РІР°РЅРёСЋ РІС…РѕР¶РґРµРЅРёВ¤ СЃРёРјРІРѕР»Р° \"" + symbol + "\" (РїСЂРё СЂР°РІРµРЅСЃС‚РІРµ РІС…РѕР¶РґРµРЅРёР№ - РїРѕ Р°Р»С„Р°РІРёС‚Сѓ):\n");
 				lexemsSortBySymbolCount(text, symbol);
 				break;
 			}
 			
 			else {
-				System.out.print("Введите номер варианта 1-3: ");
+				System.out.print("В¬РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РІР°СЂРёР°РЅС‚Р° 1-3: ");
 				var = scan.nextInt();
 			}
 			
@@ -92,7 +92,7 @@ public class RegularExpressionPractice01 {
 		}
 		
 		for (int i = 0; i < paragraph.length; i++) {
-			System.out.println("\t"+paragraph[i].trim()+"\n(" + sentenceCount[i] + " предложения)\n");
+			System.out.println("\t"+paragraph[i].trim()+"\n(" + sentenceCount[i] + " РїСЂРµРґР»РѕР¶РµРЅРёВ¤)\n");
 		}
 
 	}
