@@ -10,7 +10,7 @@ public class SquareArraysPractice8 {
 		int[] arr = new int[5];
 		IntArrayOutput.twoDim(myArr);
 		
-		System.out.print("Какие 2 столбца поменять местами?");
+		System.out.print("РљР°РєРёРµ 2 СЃС‚РѕР»Р±С†Р° РїРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё?");
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		int m = scan.nextInt();

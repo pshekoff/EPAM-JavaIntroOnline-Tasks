@@ -8,10 +8,10 @@ public class DecompositionPractice4 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Укажите количество точек: ");
+		System.out.print("РЈРєР°Р¶РёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕС‡РµРє: ");
 		int n = scan.nextInt();
 		int[][] arrXY = new int[2][n];
-		System.out.println("Введите координаты (x,y) " + n + " точек:");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ (x,y) " + n + " С‚РѕС‡РµРє:");
 		
 		for (int j = 0; j < arrXY[0].length; j++) {
 			System.out.print("(x" + (j+1) + ",y" + (j+1) + ") = ");
@@ -22,7 +22,7 @@ public class DecompositionPractice4 {
 		
 		int[] index = getIndexMaxDistance(arrXY);
 		
-		System.out.print("Максимальное расстояние между точками c координатами:\n(" + arrXY[0][index[0]] + "," + arrXY[1][index[0]] + ") и (" + arrXY[0][index[1]] + "," + arrXY[1][index[1]] + ")");
+		System.out.print("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ РјРµР¶РґСѓ С‚РѕС‡РєР°РјРё c РєРѕРѕСЂРґРёРЅР°С‚Р°РјРё:\n(" + arrXY[0][index[0]] + "," + arrXY[1][index[0]] + ") Рё (" + arrXY[0][index[1]] + "," + arrXY[1][index[1]] + ")");
 	}
 	
 	public static int[] getIndexMaxDistance (int[][] array) {

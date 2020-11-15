@@ -7,14 +7,14 @@ public class DecompositionPractice16 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Введите n (рязрядность числа): ");
+		System.out.print("Р’РІРµРґРёС‚Рµ n (СЂСЏР·СЂСЏРґРЅРѕСЃС‚СЊ С‡РёСЃР»Р°): ");
 		
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		scan.close();
 		
 		int s = getIntSum(n);
-		System.out.print("Сумма " + n + "-разрядных чисел с нечетными цифрами = " + s + "\nВ найденной сумме " + getEvenCount(s) + " четных цифр.");
+		System.out.print("РЎСѓРјРјР° " + n + "-СЂР°Р·СЂСЏРґРЅС‹С… С‡РёСЃРµР» СЃ РЅРµС‡РµС‚РЅС‹РјРё С†РёС„СЂР°РјРё = " + s + "\nР’ РЅР°Р№РґРµРЅРЅРѕР№ СЃСѓРјРјРµ " + getEvenCount(s) + " С‡РµС‚РЅС‹С… С†РёС„СЂ.");
 
 	}
 	

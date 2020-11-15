@@ -16,7 +16,7 @@ public class SortingPractice4 {
 			arr[i] = arr[i+1] + (int)ran;
 		}
 		
-		System.out.println("Исходный массив: " + Arrays.toString(arr));
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(arr));
 		
 		int swapCount = 0;
 		boolean needSwap = true;
@@ -33,8 +33,8 @@ public class SortingPractice4 {
 			}
 		}
 
-		System.out.println("Сортировка обменами по возрастанию: " + Arrays.toString(arr));
-		System.out.println("Количество перестановок = " + swapCount);
+		System.out.println("РЎРѕСЂС‚РёСЂРѕРІРєР° РѕР±РјРµРЅР°РјРё РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ: " + Arrays.toString(arr));
+		System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРµСЂРµСЃС‚Р°РЅРѕРІРѕРє = " + swapCount);
 		
 	}
 

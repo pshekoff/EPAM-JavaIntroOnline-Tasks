@@ -15,9 +15,9 @@ public class SquareArraysPractice12 {
 			}
 		}
 		
-		System.out.println("Исходная матрица:");
+		System.out.println("В»СЃС…РѕРґРЅР°В¤ РјР°С‚СЂРёС†Р°:");
 		IntArrayOutput.twoDim(myArr);
-		System.out.println("Сортировка чисел в строках по возрастанию:");
+		System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° С‡РёСЃРµР» РІ СЃС‚СЂРѕРєР°С… РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ:");
 		
 		for (int i = 0; i < myArr.length; i++) {
 			int k = 0;
@@ -34,7 +34,7 @@ public class SquareArraysPractice12 {
 		}
 		
 		IntArrayOutput.twoDim(myArr);
-		System.out.println("Сортировка чисел в строках по убыванию:");
+		System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° С‡РёСЃРµР» РІ СЃС‚СЂРѕРєР°С… РїРѕ СѓР±С‹РІР°РЅРёСЋ:");
 		
 		for (int i = 0; i < myArr.length; i++) {
 			int k = 0;

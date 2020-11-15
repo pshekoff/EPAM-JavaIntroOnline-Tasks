@@ -14,7 +14,7 @@ public class SortingPractice6 {
 			arr[i] /= 100;
 		}
 		
-		System.out.println("Исходный массив: " + Arrays.toString(arr));
+		System.out.println("В»СЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(arr));
 		
 		int i = 0;
 		while (i < arr.length-1) {
@@ -33,7 +33,7 @@ public class SortingPractice6 {
 
 		}
 		
-		System.out.println("Сортировка по возрастанию: " + Arrays.toString(arr));
+		System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ: " + Arrays.toString(arr));
 		
 	}
 

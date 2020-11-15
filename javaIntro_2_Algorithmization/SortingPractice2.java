@@ -28,8 +28,8 @@ public class SortingPractice2 {
 			arrC[2*i+1] = arrB[i];
 		}
 		
-		System.out.println("Массив А: " + Arrays.toString(arrA));
-		System.out.println("Массив B: " + Arrays.toString(arrB));
+		System.out.println("РњР°СЃСЃРёРІ Рђ: " + Arrays.toString(arrA));
+		System.out.println("РњР°СЃСЃРёРІ B: " + Arrays.toString(arrB));
 		
 		for (int i = 0; i < 19; i++) {
 			for (int j = i+1; j < 20; j++) {
@@ -41,7 +41,7 @@ public class SortingPractice2 {
 			}
 		}
 		
-		System.out.println("Слияние массивов А и В по возрастанию:\n" + Arrays.toString(arrC));
+		System.out.println("РЎР»РёСЏРЅРёРµ РјР°СЃСЃРёРІРѕРІ Рђ Рё Р’ РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ:\n" + Arrays.toString(arrC));
 
 	}
 

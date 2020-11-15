@@ -22,7 +22,7 @@ public class SortingPractice7 {
 			insertArr[i] = insertArr[i-1] + Math.round(Math.random()*20);
 		}
 		
-		System.out.println("Исходный массив: " + Arrays.toString(mainArr) + "\nМассив для вставки: " + Arrays.toString(insertArr));
+		System.out.println("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(mainArr) + "\nРњР°СЃСЃРёРІ РґР»СЏ РІСЃС‚Р°РІРєРё: " + Arrays.toString(insertArr));
 		
 		for (int i = 0; i < mainArr.length; i++) {
 			targetArr[i+5] = mainArr[i];
@@ -38,7 +38,7 @@ public class SortingPractice7 {
 
 		}
 		
-		System.out.println("Объединенный массив: " + Arrays.toString(targetArr));
+		System.out.println("РћР±СЉРµРґРёРЅРµРЅРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(targetArr));
 		
 	}
 	

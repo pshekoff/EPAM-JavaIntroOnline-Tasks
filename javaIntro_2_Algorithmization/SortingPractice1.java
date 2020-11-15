@@ -6,32 +6,32 @@ public class SortingPractice1 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Введите размерность массива А: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ РјР°СЃСЃРёРІР° Рђ: ");
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
-		System.out.print("Введите размерность массива B: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ РјР°СЃСЃРёРІР° B: ");
 		int b = scan.nextInt();
 		
 		int[] arrA = new int[a];
 		int[] arrB = new int[b];
 		int[] arrC = new int[a+b];
 		
-		System.out.print("Заполните массив А, введите " + a + " чисел: ");
+		System.out.print("Р—Р°РїРѕР»РЅРёС‚Рµ РјР°СЃСЃРёРІ Рђ, РІРІРµРґРёС‚Рµ " + a + " С‡РёСЃРµР»: ");
 		for (int i = 0; i < a; i++) {
 			arrA[i] = scan.nextInt();
 		}
 		
-		System.out.print("Заполните массив B, введите " + b + " чисел: ");
+		System.out.print("Р—Р°РїРѕР»РЅРёС‚Рµ РјР°СЃСЃРёРІ B, РІРІРµРґРёС‚Рµ " + b + " С‡РёСЃРµР»: ");
 		for (int i = 0; i < b; i++) {
 			arrB[i] = scan.nextInt();
 		}
 		
-		System.out.print("Введите порядковый номер элемента массива А от 1 до " + a + ": ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ СЌР»РµРјРµРЅС‚Р° РјР°СЃСЃРёРІР° Рђ РѕС‚ 1 РґРѕ " + a + ": ");
 		int k = scan.nextInt();
 		
 		scan.close();
 		
-		System.out.println("Массис B вставлен в массив А между " + k + "-м и " + (k+1) + "-м элементом:");
+		System.out.println("РњР°СЃСЃРёСЃ B РІСЃС‚Р°РІР»РµРЅ РІ РјР°СЃСЃРёРІ Рђ РјРµР¶РґСѓ " + k + "-Рј Рё " + (k+1) + "-Рј СЌР»РµРјРµРЅС‚РѕРј:");
 		
 		for (int i = 0; i < k; i++) {
 			arrC[i] = arrA[i];

@@ -16,7 +16,7 @@ public class SortingPractice3 {
 			arr[i] = arr[i-1] + (int)ran;
 		}
 		
-		System.out.println("Исходный массив: " + Arrays.toString(arr));
+		System.out.println("В»СЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(arr));
 		
 		for (int i = 0; i < arr.length; i++) {
 			int maxIndex = i;
@@ -32,7 +32,7 @@ public class SortingPractice3 {
 
 		}
 		
-		System.out.println("Сортировка выбором по убыванию: " + Arrays.toString(arr));
+		System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° РІС‹Р±РѕСЂРѕРј РїРѕ СѓР±С‹РІР°РЅРёСЋ: " + Arrays.toString(arr));
 
 	}
 

@@ -8,13 +8,13 @@ public class DecompositionPractice15 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Введите n < 10 (рязрядность числа): ");
+		System.out.print("Р’РІРµРґРёС‚Рµ n < 10 (СЂСЏР·СЂСЏРґРЅРѕСЃС‚СЊ С‡РёСЃР»Р°): ");
 		
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		scan.close();
 		
-		System.out.print("Все натуральные " + n + "-разрядные числа с возрастающими цифрами: " + Arrays.toString(getDigitsIncreaseValuesArray(n)));
+		System.out.print("Р’СЃРµ РЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ " + n + "-СЂР°Р·СЂСЏРґРЅС‹Рµ С‡РёСЃР»Р° СЃ РІРѕР·СЂР°СЃС‚Р°СЋС‰РёРјРё С†РёС„СЂР°РјРё: " + Arrays.toString(getDigitsIncreaseValuesArray(n)));
 
 	}
 	

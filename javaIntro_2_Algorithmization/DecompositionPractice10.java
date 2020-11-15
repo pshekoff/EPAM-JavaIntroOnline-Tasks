@@ -8,12 +8,12 @@ public class DecompositionPractice10 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Введите натуральное число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
 		int a = scan.nextInt();
 		scan.close();
 		
 		byte[] arr = getDigitsArray(a);
-		System.out.print("Массив из цифр введенного числа: " + Arrays.toString(arr));
+		System.out.print("РњР°СЃСЃРёРІ РёР· С†РёС„СЂ РІРІРµРґРµРЅРЅРѕРіРѕ С‡РёСЃР»Р°: " + Arrays.toString(arr));
 	}
 
 	public static byte[] getDigitsArray(int x) {

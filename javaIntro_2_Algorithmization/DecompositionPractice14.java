@@ -8,13 +8,13 @@ public class DecompositionPractice14 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Введите k (максимальное значение): ");
+		System.out.print("В¬РІРµРґРёС‚Рµ k (РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ): ");
 		
 		Scanner scan = new Scanner(System.in);
 		int k = scan.nextInt();
 		scan.close();
 		
-		System.out.print("Числа Армстронга на отрезке [1," + k + "]: " + Arrays.toString(getArmstrongArray(k)));
+		System.out.print("вЂћРёСЃР»Р° ССЂРјСЃС‚СЂРѕРЅРіР° РЅР° РѕС‚СЂРµР·РєРµ [1," + k + "]: " + Arrays.toString(getArmstrongArray(k)));
 	}
 
 	public static int[] getArmstrongArray(int maxVal) {

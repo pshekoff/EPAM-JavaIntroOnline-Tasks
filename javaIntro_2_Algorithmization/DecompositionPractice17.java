@@ -6,13 +6,13 @@ public class DecompositionPractice17 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Введите натуральное число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		scan.close();
 
 		int k = getActCount(n);
-		System.out.print("Чтобы получить 0, каждый раз вычитая сумму цифр полученной разности, нужно произвести " + k + " действий.");
+		System.out.print("Р§С‚РѕР±С‹ РїРѕР»СѓС‡РёС‚СЊ 0, РєР°Р¶РґС‹Р№ СЂР°Р· РІС‹С‡РёС‚Р°СЏ СЃСѓРјРјСѓ С†РёС„СЂ РїРѕР»СѓС‡РµРЅРЅРѕР№ СЂР°Р·РЅРѕСЃС‚Рё, РЅСѓР¶РЅРѕ РїСЂРѕРёР·РІРµСЃС‚Рё " + k + " РґРµР№СЃС‚РІРёР№.");
 		
 	}
 

@@ -7,21 +7,21 @@ public class DecompositionPractice8 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Укажите размер массива: ");
+		System.out.print("РЈРєР°Р¶РёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°: ");
 		int n = scan.nextInt();
 		int[] arr = new int[n];
 		
-		System.out.print("Заполните массив: ");
+		System.out.print("Р—Р°РїРѕР»РЅРёС‚Рµ РјР°СЃСЃРёРІ: ");
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scan.nextInt();
 		}
 		
-		System.out.println("С какого элемента массива посчитать сумму 3-х последовательных элементов?");
+		System.out.println("РЎ РєР°РєРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РјР°СЃСЃРёРІР° РїРѕСЃС‡РёС‚Р°С‚СЊ СЃСѓРјРјСѓ 3-С… РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ?");
 		
 		int k = scan.nextInt() - 1;
 		scan.close();
 		
-		System.out.println("Сумма равна " + getSum(arr, k));
+		System.out.println("РЎСѓРјРјР° СЂР°РІРЅР° " + getSum(arr, k));
 		
 	}
 

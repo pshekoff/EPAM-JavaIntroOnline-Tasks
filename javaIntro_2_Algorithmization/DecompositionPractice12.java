@@ -7,14 +7,14 @@ public class DecompositionPractice12 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Введите k (сумма цифр) и n (максимальное значение): ");
+		System.out.print("Р’РІРµРґРёС‚Рµ k (СЃСѓРјРјР° С†РёС„СЂ) Рё n (РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ): ");
 		
 		Scanner scan = new Scanner(System.in);
 		int k = scan.nextInt();
 		int n = scan.nextInt();
 		scan.close();
 		
-		System.out.print("Массив из чисел не больше " + n + " и с суммой цифр = " + k + ": " + Arrays.toString(getArray(k,n)));
+		System.out.print("РњР°СЃСЃРёРІ РёР· С‡РёСЃРµР» РЅРµ Р±РѕР»СЊС€Рµ " + n + " Рё СЃ СЃСѓРјРјРѕР№ С†РёС„СЂ = " + k + ": " + Arrays.toString(getArray(k,n)));
 	}
 
 	public static int[] getArray(int digitSum, int maxVal) {

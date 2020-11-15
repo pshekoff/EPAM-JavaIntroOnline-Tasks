@@ -7,11 +7,11 @@ public class DecompositionPractice5 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Укажите размер массива: ");
+		System.out.print("РЈРєР°Р¶РёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°: ");
 		int n = scan.nextInt();
 		int[] arr = new int[n];
 		
-		System.out.print("Заполните массив: ");
+		System.out.print("Р—Р°РїРѕР»РЅРёС‚Рµ РјР°СЃСЃРёРІ: ");
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scan.nextInt();
 		}
@@ -37,7 +37,7 @@ public class DecompositionPractice5 {
 			j++;
 		} while (j < arr.length);
 		
-		System.out.print("Второе по величине число: " + interMax);
+		System.out.print("Р’С‚РѕСЂРѕРµ РїРѕ РІРµР»РёС‡РёРЅРµ С‡РёСЃР»Рѕ: " + interMax);
 
 	}
 	

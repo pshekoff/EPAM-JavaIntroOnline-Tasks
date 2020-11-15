@@ -22,7 +22,7 @@ public class SquareArraysPractice9 {
 		}
 		
 		IntArrayOutput.twoDim(myArr);
-		System.out.print("Максимальная сумма чисел в " + (maxSumIndex+1) + "-м столбце и равна " + arrSum[maxSumIndex]);
+		System.out.print("РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ СЃСѓРјРјР° С‡РёСЃРµР» РІ " + (maxSumIndex+1) + "-Рј СЃС‚РѕР»Р±С†Рµ Рё СЂР°РІРЅР° " + arrSum[maxSumIndex]);
 	}
 
 }

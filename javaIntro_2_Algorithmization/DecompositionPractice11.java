@@ -6,7 +6,7 @@ public class DecompositionPractice11 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Введите 2 числа: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ 2 С‡РёСЃР»Р°: ");
 		Scanner scan = new Scanner(System.in);
 		int x = scan.nextInt();
 		int y = scan.nextInt();
@@ -28,13 +28,13 @@ public class DecompositionPractice11 {
 		int aLen = getIntLength(a);
 		int bLen = getIntLength(b);
 		if (aLen > bLen) {
-			System.out.print("В числе " + a + " больше цифр.");
+			System.out.print("Р’ С‡РёСЃР»Рµ " + a + " Р±РѕР»СЊС€Рµ С†РёС„СЂ.");
 		}
 		else if (bLen > aLen) {
-			System.out.print("В числе " + b + " больше цифр.");
+			System.out.print("Р’ С‡РёСЃР»Рµ " + b + " Р±РѕР»СЊС€Рµ С†РёС„СЂ.");
 		}
 		else {
-			System.out.print("Числа имеют одинаковое количество цифр.");
+			System.out.print("Р§РёСЃР»Р° РёРјРµСЋС‚ РѕРґРёРЅР°РєРѕРІРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С†РёС„СЂ.");
 		}
 	}
 }

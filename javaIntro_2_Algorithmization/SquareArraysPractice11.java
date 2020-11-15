@@ -17,7 +17,7 @@ public class SquareArraysPractice11 {
 		
 		IntArrayOutput.twoDim(myArr);
 		int i = 0;
-		System.out.print("Строки, в которых более 3х пятерок: ");
+		System.out.print("РЎС‚СЂРѕРєРё, РІ РєРѕС‚РѕСЂС‹С… Р±РѕР»РµРµ 3С… РїСЏС‚РµСЂРѕРє: ");
 		
 		do {
 			int fiveCount = 0;

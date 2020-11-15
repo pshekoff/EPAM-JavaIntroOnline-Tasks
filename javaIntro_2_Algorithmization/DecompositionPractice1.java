@@ -6,13 +6,13 @@ public class DecompositionPractice1 {
 
 	public static void main(String[] args) {
 			
-		System.out.print("Введите 2 натуральных числа: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ 2 РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃР»Р°: ");
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
 		int b = scan.nextInt();
 		scan.close();
 		
-		System.out.print("Наибольший общий делитель: " + getNOD(a,b) + ";\nНаимельшее общее кратное: " + getNOK(a,b));
+		System.out.print("РќР°РёР±РѕР»СЊС€РёР№ РѕР±С‰РёР№ РґРµР»РёС‚РµР»СЊ: " + getNOD(a,b) + ";\nРќР°РёРјРµР»СЊС€РµРµ РѕР±С‰РµРµ РєСЂР°С‚РЅРѕРµ: " + getNOK(a,b));
 	}
 	
 	public static int getNOD(int a, int b) {

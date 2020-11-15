@@ -6,7 +6,7 @@ public class DecompositionPractice2 {
 
 	public static void main(String[] args) {
 
-		System.out.print("Введите 4 натуральных числа: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ 4 РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃР»Р°: ");
 		
 		int[] arr = new int[4];
 		
@@ -18,7 +18,7 @@ public class DecompositionPractice2 {
 		
 		int nod = getNODSeveral(arr);
 		
-		System.out.print("Наименьший общий делитель: " + nod);
+		System.out.print("РќР°РёРјРµРЅСЊС€РёР№ РѕР±С‰РёР№ РґРµР»РёС‚РµР»СЊ: " + nod);
 	}
 	
 	public static int getNODSeveral(int[] array) {

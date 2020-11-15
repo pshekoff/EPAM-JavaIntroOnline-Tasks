@@ -16,7 +16,7 @@ public class SortingPractice5 {
 			arr[i] = arr[i+1] + (int)ran;
 		}
 		
-		System.out.println("Исходный массив: " + Arrays.toString(arr));
+		System.out.println("В»СЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ: " + Arrays.toString(arr));
 		
 		for (int i = 0; i < arr.length; i++) {
 			int index = getIndex(arr, 0, i-1, arr[i]);
@@ -27,7 +27,7 @@ public class SortingPractice5 {
 			arr[index] = value;
 		}
 		
-		System.out.println("Сортировка вставками по возрастанию: " + Arrays.toString(arr));
+		System.out.println("вЂ”РѕСЂС‚РёСЂРѕРІРєР° РІСЃС‚Р°РІРєР°РјРё РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ: " + Arrays.toString(arr));
 
 	}
 	

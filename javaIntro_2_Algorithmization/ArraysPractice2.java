@@ -20,7 +20,7 @@ public class ArraysPractice2 {
 	    	System.out.println(myArray[i]);
 	    }
 	    
-	    System.out.println("Чило замен = " + count);
+	    System.out.println("вЂћРёР»Рѕ Р·Р°РјРµРЅ = " + count);
 	}
 
 }
