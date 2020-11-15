@@ -18,7 +18,7 @@ public class LinearProgPractice5 {
 		int timeMinutes = (int) Math.floor(timeSeconds/60);
 		timeSeconds = timeSeconds - timeMinutes*60;
 		
-		System.out.println("Time is: " + timeHours + "ч " + timeMinutes + "мин " + timeSeconds + "с");
+		System.out.println("Time is: " + timeHours + "С‡ " + timeMinutes + "РјРёРЅ " + timeSeconds + "СЃ");
 
 	}
 

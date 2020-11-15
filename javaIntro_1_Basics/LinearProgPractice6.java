@@ -11,7 +11,7 @@ public class LinearProgPractice6 {
 		int x = (int) (Math.random() * (b - a + 1) + a);
 		int y = (int) (Math.random() * (b - a + 1) + a);
 		
-		System.out.println("Координаты точки: " + x + ":" + y);
+		System.out.println("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё: " + x + ":" + y);
 		
 		boolean result = false;
 		
