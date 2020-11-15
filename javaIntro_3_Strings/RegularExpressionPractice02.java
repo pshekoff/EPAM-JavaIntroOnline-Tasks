@@ -42,7 +42,7 @@ public class RegularExpressionPractice02 {
 		Matcher openTagMat = openTagPat.matcher(text);
 		while (openTagMat.find()) {
 			
-			tagTypeArr[openTagMat.start()] = "открывающтй тег";
+			tagTypeArr[openTagMat.start()] = "РѕС‚РєСЂС‹РІР°СЋС‰С‚Р№ С‚РµРі";
 			tagLengthArr[openTagMat.start()] = openTagMat.end() - openTagMat.start();
 			
 			int bodyStartIndex = openTagMat.end();
@@ -70,23 +70,23 @@ public class RegularExpressionPractice02 {
 				}
 			}
 			
-			tagTypeArr[bodyStartIndex] = "тело тега";
+			tagTypeArr[bodyStartIndex] = "С‚РµР»Рѕ С‚РµРіР°";
 			tagLengthArr[bodyStartIndex] = bodyEndIndex - bodyStartIndex;
 
 			if (bodyStartIndex == bodyEndIndex) {
-				tagTypeArr[openTagMat.start()] = "открывающий тег без тела";
+				tagTypeArr[openTagMat.start()] = "РѕС‚РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі Р±РµР· С‚РµР»Р°";
 			}			
 		}
 		
 		Matcher closeTagMat = closeTagPat.matcher(text);
 		while (closeTagMat.find()) {
-			tagTypeArr[closeTagMat.start()] = "закрывающий тег";
+			tagTypeArr[closeTagMat.start()] = "Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі";
 			tagLengthArr[closeTagMat.start()] = closeTagMat.end() - closeTagMat.start();
 		}
 		
 		for (int i = 0; i < text.length(); i++) {
 			if (tagLengthArr[i] != 0) {
-				System.out.println("Узел: " + text.substring(i, i + tagLengthArr[i]) + "; тип узла: " + tagTypeArr[i] + ";");
+				System.out.println("РЈР·РµР»: " + text.substring(i, i + tagLengthArr[i]) + "; С‚РёРї СѓР·Р»Р°: " + tagTypeArr[i] + ";");
 			}
 		}		
 	}
