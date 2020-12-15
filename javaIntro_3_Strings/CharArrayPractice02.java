@@ -5,7 +5,7 @@ public class CharArrayPractice02 {
 	public static void main(String[] args) {
 		
 		String str = "ewordq tgdword wtworsdfh s20;wordletter";
-		System.out.println("»сходна¤ строка:\t\t" + str);
+		System.out.println("Исходная строка:\t\t" + str);
 		
 		char[] strCharArr = str.toCharArray();
 		int count = 0;
