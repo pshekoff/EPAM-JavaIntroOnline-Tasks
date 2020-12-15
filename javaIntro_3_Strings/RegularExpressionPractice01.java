@@ -15,35 +15,35 @@ public class RegularExpressionPractice01 {
 					"\n\tThe reoccurring moments of starvation gradually caused the woodcutterТs wife to go\n choose selfishness. One evening, after Hansel and Gretel had been tucked in bed, the woman\n approached her husband...";
 							
 		System.out.println(text);
-		System.out.println("\n„то сделать с текстом (выберите номер варианта):\n\t1.ќтсортировать абзацы по количеству предложений;\n\t2.ќтсортировать слова в каждом предложении по длине;\n\t3.ќтсортировать лексемы в предложени¤х по убыванию вхождени¤ заданного символа.");
+		System.out.println("\nЧто сделать с текстом (выберите номер варианта):\n\t1.Отсортировать абзацы по количеству предложений;\n\t2.Отсортировать слова в каждом предложении по длине;\n\t3.Отсортировать лексемы в предложениях по убыванию вхождения заданного символа.");
 		
 		Scanner scan = new Scanner(System.in);
 		int var = scan.nextInt();
 		
 		do {
 			if (var == 1) {
-				System.out.println("—ортировка абзацев по количеству предложений:\n");
+				System.out.println("Сортировка абзацев по количеству предложений:\n");
 				paragraphsSortBySentencesCount(text);
 				break;
 			}
 			
 			else if (var == 2) {
-				System.out.println("—ортировка слов в предложени¤х по длине:\n");
+				System.out.println("Сортировка слов в предложениях по длине:\n");
 				wordsSortByLength(text);
 				break;
 			}
 			
 			else if (var == 3) {
-				System.out.print("«адайте символ: ");
+				System.out.print("«Задайте символ: ");
 				String symbol = scan.next();
 				
-				System.out.println("—ортировка лексем в предложени¤х по убыванию вхождени¤ символа \"" + symbol + "\" (при равенстве вхождений - по алфавиту):\n");
+				System.out.println("Сортировка лексем в предложениях по убыванию вхождения символа \"" + symbol + "\" (при равенстве вхождений - по алфавиту):\n");
 				lexemsSortBySymbolCount(text, symbol);
 				break;
 			}
 			
 			else {
-				System.out.print("¬ведите номер варианта 1-3: ");
+				System.out.print("Введите номер варианта 1-3: ");
 				var = scan.nextInt();
 			}
 			
@@ -92,7 +92,7 @@ public class RegularExpressionPractice01 {
 		}
 		
 		for (int i = 0; i < paragraph.length; i++) {
-			System.out.println("\t"+paragraph[i].trim()+"\n(" + sentenceCount[i] + " предложени¤)\n");
+			System.out.println("\t"+paragraph[i].trim()+"\n(" + sentenceCount[i] + " предложения)\n");
 		}
 
 	}
