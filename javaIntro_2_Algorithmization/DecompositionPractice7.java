@@ -5,7 +5,7 @@ public class DecompositionPractice7 {
 	public static void main(String[] args) {
 
 		int n = 9;
-		System.out.println("—умма факториалов нечетных чисел от 1 до " + n + ": " + getOddFactorialSum(n));
+		System.out.println("Сумма факториалов нечетных чисел от 1 до " + n + ": " + getOddFactorialSum(n));
 
 	}
 	
