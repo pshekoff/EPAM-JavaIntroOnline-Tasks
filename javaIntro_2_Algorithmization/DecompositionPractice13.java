@@ -8,13 +8,13 @@ public class DecompositionPractice13 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("¬ведите n > 2");
+		System.out.println("Введите n > 2");
 		
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
 		scan.close();
 		
-		System.out.print("—писок простых чисел близнецов на отрезке [" + n + "," + 2*n + "]: " + Arrays.toString(getSimpleTwins(n)));
+		System.out.print("Список простых чисел близнецов на отрезке [" + n + "," + 2*n + "]: " + Arrays.toString(getSimpleTwins(n)));
 
 	}
 	
