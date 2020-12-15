@@ -15,7 +15,7 @@ public class ArraysPractice1 {
 			}
 		}
 		
-		System.out.println("сумма чисел кратных " + divK + " = " + sum);
+		System.out.println("Сумма чисел кратных " + divK + " = " + sum);
 	}
 
 }
