@@ -41,7 +41,7 @@ public class RegularExpressionPractice02 {
 		Matcher openTagMat = openTagPat.matcher(text);
 		while (openTagMat.find()) {
 			
-			tagTypeArr[openTagMat.start()] = "открывающтй тег";
+			tagTypeArr[openTagMat.start()] = "открывающий тег";
 			tagLengthArr[openTagMat.start()] = openTagMat.end() - openTagMat.start();
 			
 			int bodyStartIndex = openTagMat.end();
