@@ -14,7 +14,7 @@ public class DecompositionPractice16 {
 		scan.close();
 		
 		int s = getIntSum(n);
-		System.out.print("Сумма " + n + "-разрядных чисел с нечетными цифрами = " + s + "\nВ найденной сумме " + getEvenCount(s) + " четных цифр.");
+		System.out.print("Сумма " + n + "-разрядных чисел с нечетными цифрами = " + s + "\nВ найденной сумме " + getEvenCount(s) + " четных цифр(ы).");
 
 	}
 	
