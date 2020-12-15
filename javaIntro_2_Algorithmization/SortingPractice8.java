@@ -8,14 +8,14 @@ public class SortingPractice8 {
 
 		int[][] arrPQ = new int[2][5];
 		
-		System.out.print("„ислители:   ");
+		System.out.print("Числители:   ");
 		for (int i = 0; i < arrPQ.length; i++) {
 			for (int j = 0; j < arrPQ[i].length; j++) {
 				arrPQ[i][j] = (int) Math.round(Math.random()*8 + 1);
 				System.out.print(arrPQ[i][j] + " ");
 			}
 			if (i == 0) {
-				System.out.print("\n«наменатели: ");
+				System.out.print("\nЗнаменатели: ");
 			}
 
 		}
@@ -46,7 +46,7 @@ public class SortingPractice8 {
 
 		}
 		
-		System.out.println("\nƒроби приведены к общему знаменателю и отсортированы по возрастанию:");
+		System.out.println("\nДроби приведены к общему знаменателю и отсортированы по возрастанию:");
 		IntArrayOutput.twoDim(arrPQ);
 	}
 	
