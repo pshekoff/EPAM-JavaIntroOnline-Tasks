@@ -7,7 +7,7 @@ public class DecompositionPractice3 {
 
 	public static void main(String[] args) {
 
-		System.out.print("¬ведите длину стороны правильного шестиугольника: ");
+		System.out.print("Введите длину стороны правильного шестиугольника: ");
 		
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
@@ -15,7 +15,7 @@ public class DecompositionPractice3 {
 		
 		double square = getHexagonSquare(a);
 		
-		System.out.print("ѕлощадь шестиугольнтка: " + square);
+		System.out.print("Площадь шестиугольнтка: " + square);
 
 	}
 	
