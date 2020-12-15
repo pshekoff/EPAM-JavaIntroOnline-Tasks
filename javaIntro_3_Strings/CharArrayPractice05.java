@@ -4,7 +4,7 @@ public class CharArrayPractice05 {
 
 	public static void main(String[] args) {
 
-		String str = " father mother    sister  brother  	cat   \ndog    ";
+		String str = " father mother    sister  brother  cat   \ndog    ";
 		System.out.println("Исходная строка:" + str);
 		System.out.println("Без лишник пробелов:" + spaceCut(str));
 
