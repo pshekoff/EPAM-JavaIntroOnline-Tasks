@@ -6,7 +6,7 @@ public class DecompositionPractice6 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("¬ведите 3 целых числа:");
+		System.out.println("Введите 3 целых числа:");
 		
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
@@ -17,10 +17,10 @@ public class DecompositionPractice6 {
 		int nodABC = getNOD(getNOD(a, b), c);
 		
 		if (nodABC == 1) {
-			System.out.print("¬веденные числа ¤вл¤ютс¤ взаимно простыми.");
+			System.out.print("Введенные числа являются взаимно простыми.");
 		}
 		else {
-			System.out.print("¬веденные числа не ¤вл¤ютс¤ взаимно простыми.");
+			System.out.print("Введенные числа не являются взаимно простыми.");
 		}
 
 	}
