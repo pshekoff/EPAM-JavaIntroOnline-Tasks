@@ -11,6 +11,9 @@ Course sections:
     - arrays sorting (8 tasks),
     - decomposition using methods (17 tasks);
   3. String and basics of text processing:
-    - string as array of char (5 tasks);
-    - string as object String, StringBuffer (10 tasks);
+    - string as array of char (5 tasks),
+    - string as object String, StringBuffer (10 tasks),
     - regular expressions (2 tasks);
+  4. Programming with classes:
+    - Simple objects and classes (10 tasks),
+    - aggregation and composition;
