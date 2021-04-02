@@ -16,4 +16,4 @@ Course sections:
     - regular expressions (2 tasks);
   4. Programming with classes:
     - Simple objects and classes (10 tasks),
-    - aggregation and composition;
+    - aggregation and composition (5 tasks);
