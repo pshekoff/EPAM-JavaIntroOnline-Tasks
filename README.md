@@ -18,4 +18,5 @@ Course sections:
     - Simple objects and classes (10 tasks),
     - aggregation and composition (5 tasks);
   5. Basics of OOP (5 tasks);
-  6. 
+  6. Tasks (4 tasks).
+ 
