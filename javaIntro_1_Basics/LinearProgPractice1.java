@@ -3,6 +3,8 @@ package javaIntro_1_Basics;
 import java.util.Scanner;
 
 public class LinearProgPractice1 {
+
+// Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.	
 	
 	public static void main (String[] args) {
 		
