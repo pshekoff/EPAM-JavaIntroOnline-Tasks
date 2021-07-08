@@ -111,12 +111,11 @@ public class Practice01_Main_TextFile {
 		        try(FileWriter writer = new FileWriter(file, true)) {
 		        	
 		        	System.out.println("Type a text you want to add: ");
-		        	Scanner sc = new Scanner(System.in);
-		            String text = sc.nextLine();
+		            scan.nextLine();
+		            String text = scan.nextLine();
 		            
 		        	writer.write("\n" + text);
 		        	writer.close();
-		        	//sc.close();
 		        }
 		        catch(IOException e) {
 		            System.out.println(e.getMessage());
