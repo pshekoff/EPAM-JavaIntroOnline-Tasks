@@ -4,7 +4,7 @@ public class Practice01_Main_BookCatalog {
 
 	public static void main(String[] args) {
 
-		Menu.startMenu();
+		BookCatalogMenu.startMenu();
 
 	}
 
