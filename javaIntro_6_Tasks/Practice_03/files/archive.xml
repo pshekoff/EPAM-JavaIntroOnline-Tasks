@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="1">
+        <name>Student 1</name>
+        <birthDate>01.01.2001</birthDate>
+        <group>111111</group>
+    </student>
+    <student id="2">
+        <name>Student 2</name>
+        <birthDate>02.02.2002</birthDate>
+        <group>222222</group>
+    </student>
+    <student id="3">
+        <name>Student 3</name>
+        <birthDate>03.03.2003</birthDate>
+        <group>333333</group>
+    </student>
+    <student id="4">
+        <name>Student 4</name>
+        <birthDate>04.04.2004</birthDate>
+        <group>444444</group>
+    </student>
+    <student id="5">
+        <name>Student 5</name>
+        <birthDate>05.05.2005</birthDate>
+        <group>555555</group>
+    </student>
+    <student id="6">
+        <name>Student 6</name>
+        <birthDate>06.06.2006</birthDate>
+        <group>666666</group>
+    </student>
+    <student id="7">
+        <name>124</name>
+        <birthDate>124</birthDate>
+        <group>124</group>
+    </student>
+    <student id="8">
+        <name>89765</name>
+        <birthDate>9876544</birthDate>
+        <group>879</group>
+    </student>
+    <student id="9">
+        <name>Student 9</name>
+        <birthDate>09.09.2009</birthDate>
+        <group>999999</group>
+    </student>
+</students>
