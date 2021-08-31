@@ -3,6 +3,9 @@ package javaIntro_1_Basics;
 import java.util.Scanner;
 
 public class CyclesPractice7 {
+	
+	// 7. Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+	// m и n вводятся с клавиатуры.
 
 	public static void main(String[] args) {
 		

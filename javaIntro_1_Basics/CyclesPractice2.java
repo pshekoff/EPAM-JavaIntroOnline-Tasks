@@ -3,6 +3,10 @@ package javaIntro_1_Basics;
 import java.util.Scanner;
 
 public class CyclesPractice2 {
+	
+	// 2. Вычислить значения функции на отрезке [a,b] с шагом h:
+	// y = x, x>2;
+	// y = -x, x<=2.
 
 	public static void main(String[] args) {
 		

@@ -3,6 +3,8 @@ package javaIntro_1_Basics;
 import java.util.Scanner;
 
 public class BranchingPractice2 {
+	
+	// 2. Найти max{min(a,b), min(c,d)}.
 
 	public static void main(String[] args) {
 		

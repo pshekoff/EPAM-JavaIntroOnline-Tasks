@@ -3,15 +3,18 @@ package javaIntro_1_Basics;
 import java.lang.Math;
 
 public class LinearProgPractice6 {
+	
+	// 6. Для данной области составить линейную программу, которая печатает true, если точка с координатами (x,y)
+	// принадлежит закрашенной области, и false - в противном случае: область по оси X от -4 до 4; по оси Y от -3 до 4.
 
 	public static void main(String[] args) {
 		
-		int a = -5;
-		int b = 5;
-		int x = (int) (Math.random() * (b - a + 1) + a);
-		int y = (int) (Math.random() * (b - a + 1) + a);
+		int min = -5;
+		int max = 5;
+		int x = (int) (Math.random() * (max - min + 1) + min);
+		int y = (int) (Math.random() * (max - min + 1) + min);
 		
-		System.out.println("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё: " + x + ":" + y);
+		System.out.println("Координаты точки: (" + x + "," + y + ")");
 		
 		boolean result = false;
 		
@@ -19,7 +22,7 @@ public class LinearProgPractice6 {
 			result = true;
 		}
 		
-		System.out.println(result);
+		System.out.println("Ответ: " + result);
 		
 	}
 

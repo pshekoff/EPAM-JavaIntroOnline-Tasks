@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class BranchingPractice5 {
+	
+	// 5. Вычислить значение функции F(x):
+	// pow(x,2) - 3x + 9, если x <= 3;
+	// 1/(pow(x,3) + 6), если x > 3;
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

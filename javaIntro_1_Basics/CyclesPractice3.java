@@ -1,6 +1,8 @@
 package javaIntro_1_Basics;
 
 public class CyclesPractice3 {
+	
+	// 3. Найти сумму квадратов первых ста чисел.
 
 	public static void main(String[] args) {
 

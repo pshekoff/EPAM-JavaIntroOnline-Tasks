@@ -4,6 +4,9 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class CyclesPractice5 {
+	
+	// 5. Даны числовой ряд и некоторое число e. Найти сумму тех членов ряда, модуль которых больше или равен заданному e.
+	// Общий член ряда имеет вид: an = 1/pow(2,n) + 1/pow(3,n).
 
 	public static void main(String[] args) {
 		

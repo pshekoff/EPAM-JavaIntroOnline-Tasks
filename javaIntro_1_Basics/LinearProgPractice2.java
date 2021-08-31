@@ -5,6 +5,9 @@ import java.lang.Math;
 
 public class LinearProgPractice2 {
 
+	// 2. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
+	// ((b+sqrt(pow(b,2)+4ac))/2a) - pow(a,3)*c + pow(b,-2)
+	
 	public static void main(String[] args) {
 		
 		System.out.print("Enter a,b,c: ");

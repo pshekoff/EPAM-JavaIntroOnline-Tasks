@@ -4,6 +4,9 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class BranchingPractice4 {
+	
+	// 4. Заданы размеры А, В прямоугольного отверстия и размеры x, y, z кирпича.
+	// Определить, пройдет ли кирпич через отверстие.
 
 	public static void main(String[] args) {
 

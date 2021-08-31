@@ -3,6 +3,8 @@ package javaIntro_1_Basics;
 import java.math.BigInteger;
 
 public class CyclesPractice4 {
+	
+	// 4. Составить программу нахождения произведения квадратов первых двухсот чисел.
 
 	public static void main(String[] args) {
 		BigInteger mult = new BigInteger("1");

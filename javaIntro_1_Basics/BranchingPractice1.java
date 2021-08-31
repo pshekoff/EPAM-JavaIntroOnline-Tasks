@@ -3,6 +3,9 @@ package javaIntro_1_Basics;
 import java.util.Scanner;
 
 public class BranchingPractice1 {
+	
+	// 1. Даны два угла треугольника (в нрадусах). Определить, существует ли такой треугольник,
+	// если да, то будет ли он прямоугольным.
 
 	public static void main(String[] args) {
 		

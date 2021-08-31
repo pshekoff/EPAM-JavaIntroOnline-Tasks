@@ -4,6 +4,9 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class LinearProgPractice3 {
+	
+	// 3. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
+	// ((sinx + cosy)/(cosx - siny)) * tg(xy)
 
 	public static void main(String[] args) {
 		
