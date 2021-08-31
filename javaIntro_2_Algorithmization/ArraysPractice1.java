@@ -1,6 +1,8 @@
 package javaIntro_2_Algorithmization;
 
 public class ArraysPractice1 {
+	
+	// 1. В массив A[N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному K.
 
 	public static void main(String[] args) {
 		
@@ -15,7 +17,7 @@ public class ArraysPractice1 {
 			}
 		}
 		
-		System.out.println("Сумма чисел кратных " + divK + " = " + sum);
+		System.out.println("Сумма элементов кратных " + divK + " = " + sum);
 	}
 
 }
