@@ -4,8 +4,8 @@ import java.lang.Math;
 
 public class LinearProgPractice6 {
 	
-	// 6. Для данной области составить линейную программу, которая печатает true, если точка с координатами (x,y)
-	// принадлежит закрашенной области, и false - в противном случае: область по оси X от -4 до 4; по оси Y от -3 до 4.
+	// 6. Р”Р»СЏ РґР°РЅРЅРѕР№ РѕР±Р»Р°СЃС‚Рё СЃРѕСЃС‚Р°РІРёС‚СЊ Р»РёРЅРµР№РЅСѓСЋ РїСЂРѕРіСЂР°РјРјСѓ, РєРѕС‚РѕСЂР°СЏ РїРµС‡Р°С‚Р°РµС‚ true, РµСЃР»Рё С‚РѕС‡РєР° СЃ РєРѕРѕСЂРґРёРЅР°С‚Р°РјРё (x,y)
+	// РїСЂРёРЅР°РґР»РµР¶РёС‚ Р·Р°РєСЂР°С€РµРЅРЅРѕР№ РѕР±Р»Р°СЃС‚Рё, Рё false - РІ РїСЂРѕС‚РёРІРЅРѕРј СЃР»СѓС‡Р°Рµ: РѕР±Р»Р°СЃС‚СЊ РїРѕ РѕСЃРё X РѕС‚ -4 РґРѕ 4; РїРѕ РѕСЃРё Y РѕС‚ -3 РґРѕ 4.
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public class LinearProgPractice6 {
 		int x = (int) (Math.random() * (max - min + 1) + min);
 		int y = (int) (Math.random() * (max - min + 1) + min);
 		
-		System.out.println("Координаты точки: (" + x + "," + y + ")");
+		System.out.println("РљРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё: (" + x + "," + y + ")");
 		
 		boolean result = false;
 		
@@ -22,7 +22,7 @@ public class LinearProgPractice6 {
 			result = true;
 		}
 		
-		System.out.println("Ответ: " + result);
+		System.out.println("РћС‚РІРµС‚: " + result);
 		
 	}
 

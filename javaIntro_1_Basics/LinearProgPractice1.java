@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LinearProgPractice1 {
 	
-	// 1. Найдите значение функции: z = ((a-3)*b/2)+c.
+	// 1. РќР°Р№РґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: z = ((a-3)*b/2)+c.
 	
 	public static void main (String[] args) {
 		

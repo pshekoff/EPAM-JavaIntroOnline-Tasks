@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BranchingPractice2 {
 	
-	// 2. Найти max{min(a,b), min(c,d)}.
+	// 2. РќР°Р№С‚Рё max{min(a,b), min(c,d)}.
 
 	public static void main(String[] args) {
 		

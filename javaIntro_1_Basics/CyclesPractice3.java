@@ -2,7 +2,7 @@ package javaIntro_1_Basics;
 
 public class CyclesPractice3 {
 	
-	// 3. Найти сумму квадратов первых ста чисел.
+	// 3. РќР°Р№С‚Рё СЃСѓРјРјСѓ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… СЃС‚Р° С‡РёСЃРµР».
 
 	public static void main(String[] args) {
 

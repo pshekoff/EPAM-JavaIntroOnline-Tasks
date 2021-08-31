@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class CyclesPractice4 {
 	
-	// 4. Составить программу нахождения произведения квадратов первых двухсот чисел.
+	// 4. РЎРѕСЃС‚Р°РІРёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ РЅР°С…РѕР¶РґРµРЅРёСЏ РїСЂРѕРёР·РІРµРґРµРЅРёСЏ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… РґРІСѓС…СЃРѕС‚ С‡РёСЃРµР».
 
 	public static void main(String[] args) {
 		BigInteger mult = new BigInteger("1");
