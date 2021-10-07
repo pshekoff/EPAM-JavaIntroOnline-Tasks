@@ -18,7 +18,7 @@ public class Test1 {
 	}
 	
 	public void print() {
-		System.out.println("Var1 = " + var1 + "\tVar2 = " + var2);
+		System.out.println("Var1 = " + var1 + "\nVar2 = " + var2);
 	}
 	
 	public int sum() {
