@@ -3,6 +3,9 @@ package javaIntro_4_Classes;
 import java.util.Scanner;
 
 public class Practice07_Main_Triangle {
+	
+	// 7. Описать класс, представляющий треугольник. Предусмотреть методы для создания объектов,
+	// вычисления площади, периметра и точко пересечения медиан.
 
 	public static void main(String[] args) {
 		Point a = new Point();
