@@ -70,7 +70,7 @@ public class Book {
 	}
 		
 	public String toString() {
-		return String.format("ID: %d;\tTitle: %s;\tAuthors: %s;\tPublisher: %s;\tYear: %d;\tPageCount: %d;\tPrice: %d;\tCover: %s.",
+		return String.format("id: %d;\tTitle: %s;\tAuthors: %s;\tPublisher: %s;\tYear: %d;\tPageCount: %d;\tPrice: %d;\tCover: %s.",
 				id, title, authors, publisher, year, pageCount, price, cover);
 	}
 	
