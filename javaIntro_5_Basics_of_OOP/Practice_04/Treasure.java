@@ -9,6 +9,7 @@ public class Treasure {
 	private Type type;
 	private int cost;
 	
+	//конструктор с входными параметрами
 	public Treasure(String name, Material material, Type type, int cost) {
 		this.name = name;
 		this.material = material;
@@ -16,6 +17,7 @@ public class Treasure {
 		this.cost = cost;
 	}
 	
+	//конструктор с рандомными параметрами
 	public Treasure(String name) {
 		this.name = name;
 		material = randomEnum(Material.class);
@@ -48,8 +50,8 @@ public class Treasure {
         return clazz.getEnumConstants()[x];
     }
     
+    //список материалов сокровища
     public enum Material {
-    	
     	SILVER,
     	GOLD,
     	PLATINUM,
@@ -59,8 +61,8 @@ public class Treasure {
     	EMERALD	
     }
     
-    public enum Type {
-    	
+    //список типов сокровищ
+    public enum Type {  	
     	RING,
     	NECKLACE,
     	EARRINGS,

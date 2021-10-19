@@ -26,11 +26,13 @@ public class Cave {
 		treasures.add(treasure);
 		treasuresCount++;
 	}
-
+	
+	//вывод всех сокровищ
     public void showTreasures() {
     	treasures.forEach((n) -> System.out.println(n.toString()));
     }
     
+    //вывод самого дорогого сокровища
     public void printGreatestTreasure() {
     	int cost = 0;
     	for (int i = 0; i < treasures.size(); i++) {
@@ -46,6 +48,7 @@ public class Cave {
     	}
     }
     
+    //вывод сокровищ по стоимости
     public void printTreasuresByCost(int cost) {
 
     	for (int i = 0; i < treasures.size(); i++) {
