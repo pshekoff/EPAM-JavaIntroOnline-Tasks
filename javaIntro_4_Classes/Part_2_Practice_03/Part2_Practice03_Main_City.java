@@ -2,10 +2,15 @@ package javaIntro_4_Classes;
 
 public class Part2_Practice03_Main_City {
 	
+	// 3. Создать объект класса Государство, используя классы Область, Район, Город.
+	// Методы: вывести на консоль столицу, количество областей, площадь, обласные центры.
+	
 	public static void main(String[] args) {
 		
+		//государство
 		State s = new State("Belarus",207600,9400000);
 		
+		//области
 		Region minskO = new Region("Minskaja obl.",55000,3500000);
 		Region gomelO = new Region("Mogilevskaja obl.",45000,200000);
 		Region mogilO = new Region("Mogilevskaja obl.",25000,1500000);
@@ -13,6 +18,7 @@ public class Part2_Practice03_Main_City {
 		Region grodnO = new Region("Grodnenskaja obl.",22000,700000);
 		Region brestO = new Region("Brestskaja obl.",28000,700000);
 		
+		//добавление областей
 		s.addRegion(minskO);
 		s.addRegion(gomelO);
 		s.addRegion(mogilO); 
@@ -20,6 +26,7 @@ public class Part2_Practice03_Main_City {
 		s.addRegion(grodnO);
 		s.addRegion(brestO);
 		
+		//районы
 		District minskD = new District("Minskij",5000,2000000);
 		District gomelD = new District("Gomelskij",4500,700000);
 		District mogilD = new District("Mogilevskij",4000,400000);
@@ -27,6 +34,7 @@ public class Part2_Practice03_Main_City {
 		District grodnD = new District("Grodnenslij",4200,280000);
 		District brestD = new District("Brestskij",4300,275000);
 		
+		//добавление районов к областям
 		minskO.addDistrict(minskD);
 		gomelO.addDistrict(gomelD);
 		mogilO.addDistrict(mogilD);
@@ -34,6 +42,7 @@ public class Part2_Practice03_Main_City {
 		grodnO.addDistrict(grodnD);
 		brestO.addDistrict(brestD);
 		
+		//города
 		City minsk = new City("Minsk","Capital",2000000);
 		City gomel = new City("Gomel","Regional center",500000);
 		City mogilev = new City("Mogilev","Regional center",300000);
@@ -41,6 +50,7 @@ public class Part2_Practice03_Main_City {
 		City grodno = new City("Grodno","Regional center",200000);
 		City brest = new City("Brest","Regional center",200000);
 		
+		//добавление городов к районам
 		minskD.addCity(minsk);
 		gomelD.addCity(gomel);
 		mogilD.addCity(mogilev);
@@ -48,6 +58,7 @@ public class Part2_Practice03_Main_City {
 		grodnD.addCity(grodno);
 		brestD.addCity(brest);
 		
+		//вывод необходимой информации
 		System.out.println(s.getName() + " regions count is " + s.getRegions().size());
 		System.out.println(s.getName() + " square is " + s.getSquare() + " km2");
 		System.out.println(s.getName() + " regions centers are:");
