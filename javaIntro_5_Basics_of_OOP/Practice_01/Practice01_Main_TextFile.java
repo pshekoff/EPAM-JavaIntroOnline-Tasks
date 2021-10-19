@@ -4,9 +4,15 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Practice01_Main_TextFile {
+	
+	/* Задача 1.
+	 * Создать объект класса Текстовый файл, используя классы Файл, Директория.
+	 * Методы: создать, переименовать, вывести на консоль содержимое, дополнить, удалить.
+	 */
 
 	public static void main(String[] args) {
 		
+		//директория
 		File dir = new File("C:/test");
 		dir.mkdir();
 
@@ -138,7 +144,7 @@ public class Practice01_Main_TextFile {
 		        	System.out.println("File has been deleted");
 		        }
 		        else {
-		        	System.out.println("���� file.txt �� ��� ������ � �������� ����� �������");
+		        	System.out.println("‘айл file.txt не был найден в корневой папке проекта");
 		        }
 			}
 			
