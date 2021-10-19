@@ -54,6 +54,7 @@ public class Flower implements Item {
 		return String.format("Flower %s, costs = %d, count = %d", name, cost, count);
 	}
 	
+	//список используемых цветов
 	public enum Name {		
 		ROSE,
 		LILY,

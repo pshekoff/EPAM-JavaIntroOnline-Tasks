@@ -45,6 +45,7 @@ public class FlowerPackage implements Package {
 		return String.format("%s package, capasity = %d, costs = %d", type, capasity, cost);
 	}
 	
+	//список используемых упаковок
 	public enum Type {
 		TAPE,
 		CELLOPHANE,
