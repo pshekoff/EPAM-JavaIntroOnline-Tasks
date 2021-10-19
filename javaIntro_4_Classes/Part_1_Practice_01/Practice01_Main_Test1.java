@@ -10,10 +10,15 @@ public class Practice01_Main_Test1 {
 	public static void main(String[] args) {
 		
 		Test1 test = new Test1();
+		
+		//установка переменных
 		test.setVar1(5);
 		test.setVar2(8);
 		
+		//вывод переменных
 		test.print();
+		
+		//вывод суммы и максимального значения переменных
 		System.out.println("Sum = " + test.sum());
 		System.out.println("MaxVal = " + test.maxVal());		
 	}
