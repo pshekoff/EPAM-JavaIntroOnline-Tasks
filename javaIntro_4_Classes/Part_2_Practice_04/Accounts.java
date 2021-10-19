@@ -42,7 +42,7 @@ public class Accounts {
 				}				
 			}
 		}
-		//System.out.println("Total = " + sumTotal + " sumPositive = " + sumPositive + " + sumNegative = " + sumNegative);
+
 		if (flag == -1) {
 			sum = sumNegative;
 		}
@@ -52,11 +52,6 @@ public class Accounts {
 		else if (flag == 1) {
 			sum = sumPositive;
 		}
-		//switch(flag) {
-	//	case (-1): sum = sumNegative;
-	//	case (0): sum = sumTotal;
-	//	case(1): sum = sumPositive;
-	//	}
 		return sum;
 	}
 	
