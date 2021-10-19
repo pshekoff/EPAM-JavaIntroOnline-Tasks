@@ -44,7 +44,7 @@ public class Sweetness implements Item{
 		return String.format("Sweetness %s, costs = %d, count = %d", name, cost, count);
 	}
 	
-	//список используемых младостей
+	//список используемых сладостей
 	public enum Name {		
 		CANDY,
 		CHOCOLATE,
