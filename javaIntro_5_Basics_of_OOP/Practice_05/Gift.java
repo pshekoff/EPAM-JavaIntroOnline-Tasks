@@ -25,6 +25,7 @@ public class Gift {
 		this.pack = pack;
 	}
 	
+	//добавление предмета
 	public void addItem(Item item) {
 		int count = 0;
 		for (int i = 0; i < items.size(); i++) {
@@ -38,6 +39,7 @@ public class Gift {
 		}
 	}
 	
+	//вывод содержимого
 	public void output() {
 		System.out.println("The gift consist of " + pack.toString());
 		for (int i = 0; i < items.size(); i++) {
