@@ -32,12 +32,14 @@ public class Train{
 		departureTime = dt;
 	}
 	
+	//Comparator для сортировки по номеру поезда
 	public static Comparator<Train> sortByTrainNumber = new Comparator<Train>() {
 		public int compare(Train t1, Train t2) {
 			return t1.trainNumber - t2.trainNumber;
 		}
 	};
 	
+	//Comparator сортировки по пункту назначения, если пункты одинаковые - по времени
 	public static Comparator<Train> sortByDestination = new Comparator<Train>() {
 		public int compare(Train t1, Train t2) {
 			if (t1.destination.equals(t2.destination)) {
@@ -49,6 +51,7 @@ public class Train{
 		}
 	};
 	
+	//вывод информации объекта Train
 	public void output() {
 		System.out.println(trainNumber + "\t" + departureTime + "\t" + destination);
 	}
