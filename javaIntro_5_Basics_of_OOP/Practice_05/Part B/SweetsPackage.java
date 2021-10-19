@@ -44,6 +44,7 @@ public class SweetsPackage implements Package {
 		return String.format("%s package, capasity = %d, costs = %d", type, capasity, cost);
 	}
 	
+	//список используемых упаковок
 	public enum Type {
 		CELLOPHANE,
 		PAPER,
