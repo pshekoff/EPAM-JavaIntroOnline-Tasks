@@ -1,6 +1,11 @@
 package javaIntro_5_Basics_of_OOP;
 
 public class Practice03_Main_Calendar {
+	
+	/* Задача 3.
+	 * Создать класс Календарь с внутренним классом, с помощью объектов которого
+	 * можно хранить информацию о выходных и праздничных днях.
+	 */
 
 	public static void main(String[] args) {
 
