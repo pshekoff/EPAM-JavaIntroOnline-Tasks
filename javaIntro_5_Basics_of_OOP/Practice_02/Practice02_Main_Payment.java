@@ -3,6 +3,11 @@ package javaIntro_5_Basics_of_OOP;
 import java.util.Scanner;
 
 public class Practice02_Main_Payment {
+	
+	/* Задача 2.
+	 * Создать класс Payment с внутренним классом, с помощью объектов которого
+	 * можно сформировать покупку из нескольких товаров. 
+	 */
 
 	public static void main(String[] args) {
 		
@@ -13,8 +18,8 @@ public class Practice02_Main_Payment {
 		while (true) {
 			
 			System.out.println("\nChoose option:"
-					+ "\n(1) Add product;"
-					+ "\n(2) Finish shopping.");
+							+ "\n(1) Add product;"
+							+ "\n(2) Finish shopping.");
 			
 			option = scan.nextInt();
 			
