@@ -1,0 +1,27 @@
+package by.pkirvel.bookcatalog.controller.impl;
+
+import by.pkirvel.bookcatalog.controller.Command;
+import by.pkirvel.bookcatalog.presentation.UserActionViewer;
+import by.pkirvel.bookcatalog.service.ServiceException;
+import by.pkirvel.bookcatalog.service.ServiceProvider;
+import by.pkirvel.bookcatalog.service.UserService;
+
+public class AdminCheckingCommand implements Command {
+
+	@Override
+	public String execute(String[] params) {
+		ServiceProvider provider = ServiceProvider.getInstance();
+		UserService userService = provider.getUserService();
+		
+		String login = params[1].split("=")[1];
+		
+		boolean result;
+		try {
+			result = userService.adminChecking(login);
+			return UserActionViewer.adminCheckingAnswer(result);
+		} catch (ServiceException e) {
+			return "2=Unexpected error";
+		}
+	}
+
+}
